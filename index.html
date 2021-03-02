@@ -4,7 +4,158 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Welcome</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Loader ps: need more -->
+    <div class="loader" id="loader">
+      <div class="preloader-wrapper big active">
+        <div class="spinner-layer spinner-blue">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-red">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-yellow">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+
+        <div class="spinner-layer spinner-green">
+          <div class="circle-clipper left">
+            <div class="circle"></div>
+          </div>
+          <div class="gap-patch">
+            <div class="circle"></div>
+          </div>
+          <div class="circle-clipper right">
+            <div class="circle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END: Loader -->
+
+    <!-- START: header -->
+    <header>
+      <h1 class="center-align">Never Stop, Do More!</h1>
+    </header>
+    <!-- END: header -->
+
+    <!-- START: Navigation -->
+    <nav class="light-green lighten-1">
+      <div class="container nav-wrapper">
+        <a href="#" class="brand-logo">Pat-Bikinin</a>
+        <a
+          href="#"
+          data-target="mobile-nav"
+          class="sidenav-trigger waves-effect waves-light"
+        >
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="nav-mobile" class="topnav right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#chitchat">Chitchat</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-nav">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#portofolio">Portofolio</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#chitchat">Chitchat</a></li>
+    </ul>
+    <!-- END: Navigation-->
+
+    <!-- START: Content part -->
+    <div class="container body-content" id="body-content"></div>
+    <!-- END: Content part -->
+
+    <!-- START: footer -->
+    <footer class="page-footer light-green lighten-1">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Footer Content</h5>
+            <p class="grey-text text-lighten-4">
+              You can use rows and columns here to organize your footer content.
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#home">Home</a></li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#about">About</a>
+              </li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#portofolio"
+                  >Portofolio</a
+                >
+              </li>
+              <li><a class="grey-text text-lighten-3" href="#blog">Blog</a></li>
+              <li>
+                <a class="grey-text text-lighten-3" href="#chitchat"
+                  >Chitchat</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2021 All right reserved to Patrick Martinus
+          <a class="grey-text text-lighten-4 right" href="#">More Links</a>
+        </div>
+      </div>
+    </footer>
+    <!-- END: footer -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
 </html>

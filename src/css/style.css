@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: consolas, sans-serif;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: grey;
+  border-radius: 20px;
+  display: block;
+}
+
+header {
+  min-height: 40vh;
+  padding-top: 10vh;
+}
+
+.body-content {
+  padding-top: 30px;
+  font-family: sans-serif;
+}
+
+aside h3 {
+  font-size: 20px;
+}
+
+article {
+  border-radius: 10px;
+}
+
+article p {
+  font-size: 1.3rem;
+}
+
+/* Chitchat page */
+.canvas {
+  background-color: grey;
+}
+
+.chat-area {
+  height: 40vh;
+  overflow-y: scroll;
+}
+
+.chat-area::-webkit-scrollbar {
+  width: 12px;
+}
+
+.chat-area::-webkit-scrollbar-track {
+  background: orange;
+}
+
+.chat-area::-webkit-scrollbar-thumb {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  border: 3px solid orang;
+}
