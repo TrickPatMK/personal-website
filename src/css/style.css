@@ -17,7 +17,7 @@ body {
   padding: 30px;
   background-color: grey;
   border-radius: 20px;
-  display: block;
+  display: none;
 }
 
 header {
